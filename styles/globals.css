@@ -105,3 +105,8 @@
     @apply rounded-md bg-blue-300 dark:bg-blue-500 p-2 px-4;
   }
 }
+
+.shell::before {
+  content: '$ ';
+  color: lightgreen;
+}

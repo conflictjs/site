@@ -14,7 +14,7 @@ export default function Nav() {
       <ul className="flex flex-wrap justify-between items-center p-6">
         <img
           className="w-8 h-8 rounded-full"
-          src="https://github.com/eilla1.png"
+          src="https://conflict.js.org/favicon.png"
           alt="logo"
         />
         <ul className="mx-0 flex flex-row space-x-5">
@@ -36,7 +36,7 @@ export default function Nav() {
               }}
               className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10"
             >
-              {theme === "dark" ? <span>🔆</span> : <span>🌚</span>}
+              {theme === "dark" ? <span>🔆</span> : <span>🌑</span>}
             </button>
           </li>
         </ul>

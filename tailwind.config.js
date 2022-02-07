@@ -10,6 +10,13 @@ module.exports = {
         mono: ["'Inconsolata'", ...defaultTheme.fontFamily.mono],
         sans: ["'DM Sans'", ...defaultTheme.fontFamily.sans],
       },
+      backgroundSize: {
+        'size-200': '200% 200%',
+      },
+      backgroundPosition: {
+        'pos-0': '0% 0%',
+        'pos-100': '100% 100%',
+      },
     },
   },
   variants: {
