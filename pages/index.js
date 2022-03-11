@@ -60,7 +60,7 @@ export default new Command({
     description: 'Hello, world!',
     execute: command => command.respond('Hello, world!')
 });`}</pre>
-              <a href="https://docs.conflict.yodacode.xyz" target="_blank">
+              <a href="https://docs.conflict.yodacode.xyz" target="_blank" rel="noreferrer">
                 <div style={{
                   position: "relative",
                   bottom: "0px",
@@ -95,7 +95,7 @@ export default new Command({
     <Button onclick={(event) => {
         event.modal(
             <Modal title="I'm a modal" onSubmit={(form) => {
-                form.respond('You just submitted! Here\'s the data: ' + JSON.stringify(form.values));
+                form.respond('You just submitted! Here\\'s the data: ' + JSON.stringify(form.values));
             }}>
                 <ActionRow>
                     <TextInput label="Text input" placeholder="Input some text!" variant="input" name="text_input" />
@@ -104,7 +104,7 @@ export default new Command({
         );
     }} variant="cta">Open Modal</Button>
 </ActionRow>`}</pre>
-              <a href="https://docs.conflict.yodacode.xyz" target="_blank">
+              <a href="https://docs.conflict.yodacode.xyz" target="_blank" rel="noreferrer">
                 <div style={{
                   position: "relative",
                   bottom: "0px",
@@ -115,7 +115,7 @@ export default new Command({
                   width: '100%',
                   background: '#000000aa',
                   color: 'white'
-                }} className="lg:ml-5 sm:ml-4 transition-all duration-300 ease-in-linear hover:translate-x-[-45%] translate-x-[-50%]">Compare to hundreds of lines in other libraries <i>if it's even supported</i> →</div>
+                }} className="lg:ml-5 sm:ml-4 transition-all duration-300 ease-in-linear hover:translate-x-[-45%] translate-x-[-50%]">Compare to hundreds of lines in other libraries <i>if it&apos;s even supported</i> →</div>
               </a>
             </code>
           </div>
