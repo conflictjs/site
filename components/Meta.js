@@ -35,7 +35,7 @@ export default function Meta({ title }) {
       />
       <meta property="og:url" content="yourdomain.com" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={title.startsWith('!') ? (title.substring(1)) : (title)} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
