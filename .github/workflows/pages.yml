@@ -25,12 +25,12 @@ jobs:
 
       # Install
       - name: Install
-        run: npm ci
+        run: yarn
 
       # Build with Next.js
       - name: Build Next.js
-        run: npm run build
-
+        run: yarn build
+        
       # Export static files
       - name: Export static files
         run: npm run export
