@@ -15,7 +15,7 @@ export default function Home() {
             top: '50%',
             transform: 'translateY(-50%)'
           }}>
-            <img alt="Conflict " src="https://conflict.js.org/conflict.svg" className="w-[200px] mx-auto sm:w-[300px] lg:w-[400px] sm:mx-0" />
+            <img alt="Conflict " src="/conflict.svg" className="w-[200px] mx-auto sm:w-[300px] lg:w-[400px] sm:mx-0" />
             <h2 className="subtitle mb-3 sm:ml-4 lg:ml-5">Build <a className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-blue-600">incredible</a> Discord integrations, <a className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600">faster</a> and <a className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">simpler</a> than with any other library.</h2>
             <span className="mb-3 sm:ml-4 lg:ml-5">
               <a href="https://docs.conflict.yodacode.xyz/getting-started" className="mr-3">
@@ -48,7 +48,7 @@ export default function Home() {
             transform: 'translateY(-50%)'
           }}>
             <h2 className="subtitle mb-3 sm:ml-4 lg:ml-5">
-            <img alt="Conflict " src="https://conflict.js.org/conflict.svg" className="w-[175px] mx-auto sm:w-[175px] lg:w-[175px] sm:mx-0 inline-block align-bottom" />
+            <img alt="Conflict " src="/conflict.svg" className="w-[175px] mx-auto sm:w-[175px] lg:w-[175px] sm:mx-0 inline-block align-bottom" />
             {' '} is the Discord framework for <a className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-blue-600">beginners</a></h2>
             <p className="sm:ml-4 lg:ml-5">Create a command with as little as <b>6 lines of code.</b></p>
             <br />
@@ -86,7 +86,7 @@ export default new Command({
             transform: 'translateY(-50%)'
           }}>
             <h2 className="subtitle mb-3 sm:ml-4 lg:ml-5">
-            <img alt="Conflict " src="https://conflict.js.org/conflict.svg" className="w-[175px] mx-auto sm:w-[175px] lg:w-[175px] sm:mx-0 inline-block align-bottom" />
+            <img alt="Conflict " src="/conflict.svg" className="w-[175px] mx-auto sm:w-[175px] lg:w-[175px] sm:mx-0 inline-block align-bottom" />
             {' '} has all the new <a className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600">features</a></h2>
             <p className="sm:ml-4 lg:ml-5">Use new features like modals with as little as <b>13 lines of JSX.</b></p>
             <br />
