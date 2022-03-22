@@ -14,7 +14,7 @@ export default function Nav() {
       <ul className="flex flex-wrap justify-between items-center p-6">
         <img
           className="w-8 h-8 rounded-full"
-          src="https://conflict.js.org/favicon.png"
+          src="/favicon.png"
           alt="logo"
         />
         <ul className="mx-0 flex flex-row space-x-5">
