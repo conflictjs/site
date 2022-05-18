@@ -43,7 +43,7 @@ jobs:
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
-          REPO: git@github.com:yodalightsabr/conflict-website-v2.git
+          REPO: git@github.com:conflictjs/site.git
           BRANCH: gh-pages
           FOLDER: out
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
