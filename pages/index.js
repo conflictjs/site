@@ -8,7 +8,8 @@ export default function Home() {
       <Nav />
       <main className="m-6">
         <div className="container mx-auto" style={{
-          height: 'calc( 100vh - 200px )'
+          height: 'calc( 100vh - 200px )',
+          minHeight: '500px'
         }}>
           <div style={{
             position: 'relative',
@@ -40,7 +41,8 @@ export default function Home() {
 
 
         <div className="container mx-auto" style={{
-          height: 'calc( 100vh - 200px )'
+          height: 'calc( 100vh - 200px )',
+          minHeight: '500px'
         }}>
           <div style={{
             position: 'relative',
@@ -78,7 +80,8 @@ export default new Command({
         </div>
 
         <div className="container mx-auto" style={{
-          height: 'calc( 100vh - 200px )'
+          height: 'calc( 100vh - 200px )',
+          minHeight: '500px'
         }}>
           <div style={{
             position: 'relative',

@@ -33,7 +33,7 @@ export default function Meta({ title }) {
         content={darkThemeColor}
         media="(prefers-color-scheme: dark)"
       />
-      <meta property="og:url" content="yourdomain.com" />
+      <meta property="og:url" content="https://conflict.js.org" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title.startsWith('!') ? (title.substring(1)) : (title)} />
       <meta property="og:description" content={description} />
